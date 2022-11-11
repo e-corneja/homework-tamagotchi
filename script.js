@@ -18,7 +18,7 @@ const tamagotchi = {
       ? (this.mood = `Настроение: Мне скучно (${this.mood})`)
       : (this.mood = `Настроение: Мне не скучно (${this.mood})`);
 
-    ////////Условие else (строчка 24) которое не срабатывает//////////
+    ////////Условие else (строчка 22) которое не срабатывает//////////
     if (this.meal <= 0 || this.energy <= 0 || this.mood <= 0) {
       console.log(`${name} умер`);
     } else {
